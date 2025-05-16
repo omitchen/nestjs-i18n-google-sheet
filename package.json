@@ -1,0 +1,38 @@
+{
+  "name": "nestjs-i18n-google-sheet",
+  "version": "1.0.0",
+  "description": "NestJS I18n Google Sheet",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omitchen/nestjs-i18n-google-sheet.git"
+  },
+  "author": "omitchen",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.8.0",
+    "google-spreadsheet": "^4.1.1",
+    "googleapis": "^148.0.0"
+  },
+  "peerDependencies": {
+    "@golevelup/nestjs-rabbitmq": "5.4.1",
+    "@nestjs-modules/ioredis": "^2.0.2",
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/swagger": "^7.1.16",
+    "ioredis": "^5.3.2",
+    "nestjs-zod": "^3.0.0",
+    "redlock": "5.0.0-beta.2"
+  }
+}
