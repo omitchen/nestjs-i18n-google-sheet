@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "NestJS I18n Google Sheet",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
@@ -12,7 +16,13 @@
     "url": "git+https://github.com/omitchen/nestjs-i18n-google-sheet.git"
   },
   "author": "omitchen",
-  "keywords": [],
+  "keywords": [
+    "nestjs",
+    "i18n",
+    "google-sheet",
+    "internationalization",
+    "translation"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@nestjs/common": "^11.1.0",
