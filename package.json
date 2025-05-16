@@ -1,6 +1,6 @@
 {
   "name": "nestjs-i18n-google-sheet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NestJS I18n Google Sheet",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
